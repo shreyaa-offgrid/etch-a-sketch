@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 3px green dotted;
+    margin:10px auto;
+    width:fit-content;
+    padding:2px;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    border: 1px black solid;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+button{
+    display: flex;
+    margin:10px auto;
+    padding: 5px;
+    background-color: lightgreen;
+    border:none;
+    border-radius: 5px;
+    max-width: 100px;
+}
+button:hover{
+    background-color: lightseagreen;
+}
