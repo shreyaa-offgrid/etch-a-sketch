@@ -33,7 +33,10 @@ function createGrid(n) {
         boxes[i].addEventListener("mouseenter", function (e) {
             let box = e.target;
             console.log(box);
-            box.style.backgroundColor = "green";
+            let r = Math.random()*256;
+            let g = Math.random()*256;
+            let b = Math.random()*256;
+            box.style.backgroundColor = "rgb("+r+","+g+","+b+")" ;
         });
     }
 }
