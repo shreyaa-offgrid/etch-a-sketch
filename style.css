@@ -3,12 +3,12 @@
     flex-direction: column;
     border: 3px green dotted;
     margin:10px auto;
-    width:fit-content;
+    width:964px;
+    height:964px;
     padding:2px;
 }
 .box{
-    height: 40px;
-    width: 40px;
+    box-sizing: border-box;
     border: 1px black solid;
 }
 
